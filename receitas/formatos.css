@@ -1,0 +1,66 @@
+body {
+    overflow-y: auto;
+}
+
+.menu {
+    background-color: salmon;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_title {
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.menu_content {
+    font-size: 32px;
+    font-weight: bold;
+    align-self: center;
+    text-align: center;
+}
+
+.menu_content p {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.menu_content_top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu_content_bottom {
+    margin: 40px 0 80px 0;
+}
+
+.menu_footer {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_logo {
+    width: 80px;
+    height: 80px;
+}
+
+header {
+    height: 60px;
+}
+
+main {
+    height: calc(100vh - 100px);
+}
+
+footer {
+    height: 25px;
+}

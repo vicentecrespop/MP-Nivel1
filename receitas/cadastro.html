@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="formatos.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header class="bg-dark d-flex align-items-center">
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="receitas.html">Receitas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light active"  href="cadastro.html">Cadastro</a>
+            </li>
+        </ul>
+    </header>
+    <main class="container-fluid" style="background-color: salmon;">
+        <div class="d-flex flex-column align-items-center">
+            <form method="POST" action="" class="row justify-content-around w-75 pt-5">
+                <div class="col-10">
+                    <h1 class="align-self-start">Efetue seu Cadastro</h1>
+                    <div class="row mt-2">
+                        <label class="col">Nome</label>
+                        <input class="rounded border-light col-9" type="text" name="nome">
+                    </div>
+                    <div class="row mt-2">
+                        <label class="col">E-mail</label>
+                        <input class="rounded border-light col-9" type="email" name="email">
+                    </div>
+                    <div class="row mt-2">
+                        <label class="col">CEP</label>
+                        <div class="col-9 row m-0">
+                            <div class="row">
+                                <input class="rounded border-light" type="text" name="cep">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <label class="col">Rua</label>
+                        <input class="rounded border-light col-9" type="text" name="rua">
+                    </div>
+                    <div class="row mt-2">
+                        <label class="col">Nº</label>
+                        <input class="rounded border-light col-2" type="number" name="numero">
+                        <label class="col">Complemento</label>
+                        <input class="rounded border-light col-4" type="text" name="complemento">
+                    </div>
+                    <div class="row mt-2">
+                        <label class="col">Cidade</label>
+                        <input class="rounded border-light col-7" type="text" name="cidade">
+                        <label class="col-1">UF</label>
+                        <input class="rounded border-light col-1" type="text" name="uf">
+                    </div>
+                </div>
+                <button type="submit" class="align-self-end bg-dark text-white py-1 px-5 rounded">Cadastrar</button>
+            </form>
+        </div>
+    </main>
+    <footer class="menu_footer">
+        <span>&copy Jurema 2022</span>
+    </footer>
+</body>
+</html>
